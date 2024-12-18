@@ -15,7 +15,7 @@
     <dependency>
       <groupId>cn.coolplay</groupId>
       <artifactId>seattle_tv_sdk</artifactId>
-      <version>1.2.7</version>
+      <version>1.2.8</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
