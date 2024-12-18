@@ -18,8 +18,11 @@ maven配置: 项目根目录下settings.gradle
                   google()
                   mavenCentral()
                   maven {
-                      url = uri("https://github.com/broad-solutions/seattleTvSdk/raw/main")
-                  }
+                    url = uri("https://github.com/broad-solutions/shortVideoSdk/raw/main")
+                 }
+                  maven {
+                 url = uri("https://github.com/broad-solutions/seattleTvSdk/raw/main")
+                 }
               }
     }
 
