@@ -47,7 +47,7 @@ import android.content.Context
 import android.util.Log
 import com.tradplus.ads.open.TradPlusSdk
 
-//初始化sdk 必须实现 ImageLoaderFactory
+//初始化sdk
 class App : Application() {
 
 
