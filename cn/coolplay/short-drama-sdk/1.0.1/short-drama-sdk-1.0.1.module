@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "short-drama-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.2.8"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "short-drama-common",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.1.aar",
+          "url": "short-drama-sdk-1.0.1.aar",
+          "size": 2492166,
+          "sha512": "10d407f80da026a5c91c19dde0683ba065839037fbb5e9a6f1d266e67c9ee9b186a0ffc8ccf3826f3f638c73a74d4d155c24e708316bf1b810e099685b718100",
+          "sha256": "3ef4a1f8664a3c2fe930f3312e52dbec4141512e82b5b2dac2f24a01bfad81d1",
+          "sha1": "2080bc6c4647716ad838a21e583019f49016485d",
+          "md5": "21f9a037ef4cdb8adb50dc577917ee07"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.2.8"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "short-drama-common",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.1.aar",
+          "url": "short-drama-sdk-1.0.1.aar",
+          "size": 2492166,
+          "sha512": "10d407f80da026a5c91c19dde0683ba065839037fbb5e9a6f1d266e67c9ee9b186a0ffc8ccf3826f3f638c73a74d4d155c24e708316bf1b810e099685b718100",
+          "sha256": "3ef4a1f8664a3c2fe930f3312e52dbec4141512e82b5b2dac2f24a01bfad81d1",
+          "sha1": "2080bc6c4647716ad838a21e583019f49016485d",
+          "md5": "21f9a037ef4cdb8adb50dc577917ee07"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.1-sources.jar",
+          "url": "short-drama-sdk-1.0.1-sources.jar",
+          "size": 99211,
+          "sha512": "a3bc7c33f2eac32d6b30a823a385b553ee6ef657ea5b9e6500656cec22a0d978cb55393114467f7c42e8338ebc45cb1f34b5ddb13397ff75b5cdbc58a582d595",
+          "sha256": "595074d97b3c335b1e518b57f0d02c3654898329405e0bc7141c4ed4f79b37cc",
+          "sha1": "5f0d96af3aeaa06e5abf7494fe48c4909fa7b220",
+          "md5": "f82febb172f391d795c56752adb0095c"
+        }
+      ]
+    }
+  ]
+}
