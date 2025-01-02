@@ -70,6 +70,11 @@ class App : Application() {
 
 ```
 -keep class cn.coolplay.** { *; }
+-dontwarn org.joda.convert.**
+-dontwarn org.joda.time.**
+-keep class org.joda.time.** { *; }
+-keep interface org.joda.time.** { *; }
+-keep class net.danlew.** { *; }
 混淆配置已经自动处理,不需要自己填写广告相关的混淆
 ```
 
