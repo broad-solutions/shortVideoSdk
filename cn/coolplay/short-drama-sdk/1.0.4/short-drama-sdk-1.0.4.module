@@ -26,7 +26,7 @@
           "group": "cn.coolplay",
           "module": "seattle_tv_sdk",
           "version": {
-            "requires": "1.2.8"
+            "requires": "1.2.9"
           }
         },
         {
@@ -62,11 +62,11 @@
         {
           "name": "short-drama-sdk-1.0.4.aar",
           "url": "short-drama-sdk-1.0.4.aar",
-          "size": 2545794,
-          "sha512": "a2bead805c587c4ce5842ce0035b2dd707ecab9e91a5b03ab149858926c182889150c8844002bb9a429623e65872723d4c536b3223dfb3f64ba89e5f26bf826b",
-          "sha256": "ccc8c95feeb7d16c3a73335d4e25f6e95673a2e460f8894baf38e286a52d0ceb",
-          "sha1": "bca01d8cc4ac9b55a3f93241d9ab8b81b5990a44",
-          "md5": "b3172450e7bc69a841d8ceba1ece92cd"
+          "size": 2545117,
+          "sha512": "4131c74bfcef4968015e5aa34ea44f2d6de55fb82557136545127c44cafb5322a79c01d2804786771bc446f932ecd6800a4a153e4fe81f32cb6c1ab54903ebc6",
+          "sha256": "e82310f19342fa911066df8759b955eba0ce49c81fe49c94a1702a147d278343",
+          "sha1": "4828ede3e28849d3df7067179a3f81e6d3701f6b",
+          "md5": "42441466b207285785d7033944458b88"
         }
       ]
     },
@@ -96,7 +96,7 @@
           "group": "cn.coolplay",
           "module": "seattle_tv_sdk",
           "version": {
-            "requires": "1.2.8"
+            "requires": "1.2.9"
           }
         },
         {
@@ -132,11 +132,11 @@
         {
           "name": "short-drama-sdk-1.0.4.aar",
           "url": "short-drama-sdk-1.0.4.aar",
-          "size": 2545794,
-          "sha512": "a2bead805c587c4ce5842ce0035b2dd707ecab9e91a5b03ab149858926c182889150c8844002bb9a429623e65872723d4c536b3223dfb3f64ba89e5f26bf826b",
-          "sha256": "ccc8c95feeb7d16c3a73335d4e25f6e95673a2e460f8894baf38e286a52d0ceb",
-          "sha1": "bca01d8cc4ac9b55a3f93241d9ab8b81b5990a44",
-          "md5": "b3172450e7bc69a841d8ceba1ece92cd"
+          "size": 2545117,
+          "sha512": "4131c74bfcef4968015e5aa34ea44f2d6de55fb82557136545127c44cafb5322a79c01d2804786771bc446f932ecd6800a4a153e4fe81f32cb6c1ab54903ebc6",
+          "sha256": "e82310f19342fa911066df8759b955eba0ce49c81fe49c94a1702a147d278343",
+          "sha1": "4828ede3e28849d3df7067179a3f81e6d3701f6b",
+          "md5": "42441466b207285785d7033944458b88"
         }
       ]
     },
@@ -154,11 +154,11 @@
         {
           "name": "short-drama-sdk-1.0.4-sources.jar",
           "url": "short-drama-sdk-1.0.4-sources.jar",
-          "size": 122033,
-          "sha512": "6bce91376901c98a20df7063950d8d978e1aca021deea738423d1eb7a2f32cca0679ae50aeb71a21f4a4ed6c70322563a20eafe5eeeeec1ca4f36b14e1c53ec5",
-          "sha256": "8fd1d427ee3870e51d34c06b6b5df4d1666f9bcc1305c83fba678613dc58b290",
-          "sha1": "5a3e5082e76f611d2b9cc56b253a166578bb1dbb",
-          "md5": "f4cdb69c4c868842d296712222c94630"
+          "size": 121899,
+          "sha512": "52a0804637c986540679da7d8311f43a2ecd395e030ede0584aaf719aa84292f088f75495e10e9fd05ebd3bc617fa747b228589183680beb93d1783a26151b61",
+          "sha256": "3fe758b04f724a02c5a4e4a12b0b95aba4232e648066f0836e281a103d6c5852",
+          "sha1": "380111867319813d2dacd2f31757278bddb238a1",
+          "md5": "58ad0de6d8a9b62ca78e20c7deb310ee"
         }
       ]
     }
