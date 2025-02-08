@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "short-drama-sdk",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.2.9"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "short-drama-common",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.github.cymchad",
+          "module": "BaseRecyclerViewAdapterHelper4",
+          "version": {
+            "requires": "4.1.4"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.5.aar",
+          "url": "short-drama-sdk-1.0.5.aar",
+          "size": 2546585,
+          "sha512": "8502fbecb915d24b14b08e9ed6e66b84ea0484221841dba8b93809120d6fcc882454c25cad1752f30e97c662db187a8db02fdfe3eb070265567eae06cf11f576",
+          "sha256": "6b49efbad0a0a4cb9d3c0ced75cfcafdaf17ab488c2b0fc16ee4f7bab39cbf2d",
+          "sha1": "75a34e020cc26d52744f7891985edc5f7baa488b",
+          "md5": "90d62cfab4fd475efb9ffa2d54962371"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.2.9"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "short-drama-common",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.github.cymchad",
+          "module": "BaseRecyclerViewAdapterHelper4",
+          "version": {
+            "requires": "4.1.4"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.5.aar",
+          "url": "short-drama-sdk-1.0.5.aar",
+          "size": 2546585,
+          "sha512": "8502fbecb915d24b14b08e9ed6e66b84ea0484221841dba8b93809120d6fcc882454c25cad1752f30e97c662db187a8db02fdfe3eb070265567eae06cf11f576",
+          "sha256": "6b49efbad0a0a4cb9d3c0ced75cfcafdaf17ab488c2b0fc16ee4f7bab39cbf2d",
+          "sha1": "75a34e020cc26d52744f7891985edc5f7baa488b",
+          "md5": "90d62cfab4fd475efb9ffa2d54962371"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "short-drama-sdk-1.0.5-sources.jar",
+          "url": "short-drama-sdk-1.0.5-sources.jar",
+          "size": 122411,
+          "sha512": "1a02d95e456d9fdf61c9bfeb82edd6aaa5fd890d8f39ecb64cfcb011b8b3f2e920cd5669be08a1cf3dbefc30ae19af2eb4d094d741705686a45d9edf3ee4ac20",
+          "sha256": "51eedb0268095abec67560c2655daa148c838da6ccfc6dde78fe7a7295fc281e",
+          "sha1": "68db3784da6a24d4000cb11572a4c4531a87db5c",
+          "md5": "faa4fb083a31daeef259e6564bafa530"
+        }
+      ]
+    }
+  ]
+}
