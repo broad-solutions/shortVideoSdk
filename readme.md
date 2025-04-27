@@ -54,7 +54,16 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         //初始化sdk
-        DramaSdk.initialize(this, "这里填写 clientId", "这里填写 clientSecret")", "这里是你的包名","isDebug")
+       DramaSdk.initialize(
+       this,
+       "这里填写 clientId",
+       "这里填写 clientSecret",
+       "这里是你的包名",
+        isTv: Boolean = true, //是否是tv
+        isDebug: Boolean = false, //是否是debug
+        language: String = "en", //默认是英语
+        deviceId: String? = null，//设备ID
+    )  
     }
 }
 //跳转到首页
