@@ -31,7 +31,8 @@ maven配置: 项目根目录下settings.gradle
 ```
 dependencies {
     //短剧sdk
-    implementation 'cn.coolplay:short-drama-sdk:1.0.6'
+    implementation 'cn.coolplay:paid-drama-sdk:1.0'
+    
 }
 ```
 
@@ -65,14 +66,22 @@ class App : Application() {
         deviceId: String? = null，//设备ID
     )  
     }
+    
 }
-//跳转到首页
-   DramaMainActivity.start(this) 
-//跳转到 短剧播放页面
-参数 必须是 MovieItem 这里是数据Bean
- DramaPlayActivity.start(this, "movieItem")
+    //跳转到首页
+    DramaSdk.goMain(this)
+    //跳转到 短剧播放页面
+    参数必须是 MovieItem 这里是数据Bean
+    DramaSdk.startPlay(this, "movieItem")
     DramaSdk.getRecommendList(1) {  //获取推荐列表 } 
     DramaSdk.getHotList(1) {  //获取热门列表 } 
+    //获取所有列表
+    DramaSdk.getAllList(
+        hashMapOf(
+            "currentPage" to "$page",
+            "pageSize" to "$size",
+        )
+    
 ```
 
 # 5. 混淆配置
