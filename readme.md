@@ -31,7 +31,7 @@ maven配置: 项目根目录下settings.gradle
 ```
 dependencies {
     //短剧sdk
-    implementation 'cn.coolplay:paid-drama-sdk:1.0'
+    implementation 'cn.coolplay:paid-drama-sdk:1.0.1'
     
 }
 ```
