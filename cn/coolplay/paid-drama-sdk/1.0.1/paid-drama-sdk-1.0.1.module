@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "paid-drama-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "cn.coolplay",
+          "module": "core",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "dkplayer-java",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "dkplayer-ui",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.2.1"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "player-ijk",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "videocache",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.1.aar",
+          "url": "paid-drama-sdk-1.0.1.aar",
+          "size": 762990,
+          "sha512": "2356bb539aa730afddc7dc7c0644b5a826ef1c3d1fea0036e2ab267584fae55040faad7ceb3a8d36041532321edbe603452abbda18bea9a0d778353a2b991009",
+          "sha256": "717d0542aef08e74069d0f889eb61bdf3bf9e3354a05bc92a381ee814ee28586",
+          "sha1": "72c92d29eb6b804de532917708ee96c232fa260b",
+          "md5": "dc78379a8539ae61686567b3f4226e99"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "core",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "dkplayer-java",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "dkplayer-ui",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.2.1"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "player-ijk",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "videocache",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.1.aar",
+          "url": "paid-drama-sdk-1.0.1.aar",
+          "size": 762990,
+          "sha512": "2356bb539aa730afddc7dc7c0644b5a826ef1c3d1fea0036e2ab267584fae55040faad7ceb3a8d36041532321edbe603452abbda18bea9a0d778353a2b991009",
+          "sha256": "717d0542aef08e74069d0f889eb61bdf3bf9e3354a05bc92a381ee814ee28586",
+          "sha1": "72c92d29eb6b804de532917708ee96c232fa260b",
+          "md5": "dc78379a8539ae61686567b3f4226e99"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.1-sources.jar",
+          "url": "paid-drama-sdk-1.0.1-sources.jar",
+          "size": 99933,
+          "sha512": "297b03768509315e1f2c6b69febf7eee1a54e77c220976061f664a07eac664d8efe8b684de4c97f4c2efc4b63081d538da928b6b33a242ed844ce78217bece03",
+          "sha256": "c023b01a9c0c502795d0428dd56f3a1585812ed10d62158309cfc41e8fd6b515",
+          "sha1": "94e25a88f740e3dd4111e6ca85133294a5dabfe9",
+          "md5": "6a28613e97c1b42726081a43f0ad1efb"
+        }
+      ]
+    }
+  ]
+}
