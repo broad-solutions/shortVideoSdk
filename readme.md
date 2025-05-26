@@ -22,7 +22,12 @@ maven配置: 项目根目录下settings.gradle
                  }
                   maven {
                  url = uri("https://github.com/broad-solutions/seattleTvSdk/raw/main")
-                 }
+                 } 
+                  maven { url = uri("https://jitpack.io") }
+                   maven {
+                     url = uri("https://s01.oss.sonatype.org/content/groups/public")
+                   }
+
               }
     }
 
@@ -63,7 +68,8 @@ class App : Application() {
         isTv: Boolean = true, //是否是tv
         isDebug: Boolean = false, //是否是debug
         language: String = "en", //默认是英语
-        deviceId: String? = null，//设备ID
+        deviceId: String? = null，//设备ID,
+        testMode: Boolean = true,//是否是测试模式
     )  
     }
     
