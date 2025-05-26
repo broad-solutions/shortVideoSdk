@@ -90,11 +90,11 @@
         {
           "name": "paid-drama-sdk-1.0.2.aar",
           "url": "paid-drama-sdk-1.0.2.aar",
-          "size": 794271,
-          "sha512": "41cc01e5552cc928af01734578e96c9a07c27d5dd15e88545d2d88836187cf0ba690644093f704e2581542e20b7039aef102cae37d2e933c949d398a6d004812",
-          "sha256": "237328d4ab97f32162b8e6a1cba91e620b6757bea6dba82e918cf15e313ea393",
-          "sha1": "ac16e88c17c0040e1b0d9299a38e025f332157dc",
-          "md5": "b3dbd470c070a65d7f1beb7c38bbc1be"
+          "size": 794275,
+          "sha512": "90fe6f3c79077655ca3dec08845e024e803612a19752b823230527362afc100f30307d48c2d20f6d4eabf9fa8cb29678cf950892e1f74c71445341aac80e2180",
+          "sha256": "9f369a58287001a0d724863e28e4afcd539fc474d1bc1f91a631c2da33ea8ebd",
+          "sha1": "a540db559452470d4ec9bc341dfd2c83b73bdbd0",
+          "md5": "09d39153c6e127241f1cd9ca63fa4f5a"
         }
       ]
     },
@@ -181,11 +181,11 @@
         {
           "name": "paid-drama-sdk-1.0.2.aar",
           "url": "paid-drama-sdk-1.0.2.aar",
-          "size": 794271,
-          "sha512": "41cc01e5552cc928af01734578e96c9a07c27d5dd15e88545d2d88836187cf0ba690644093f704e2581542e20b7039aef102cae37d2e933c949d398a6d004812",
-          "sha256": "237328d4ab97f32162b8e6a1cba91e620b6757bea6dba82e918cf15e313ea393",
-          "sha1": "ac16e88c17c0040e1b0d9299a38e025f332157dc",
-          "md5": "b3dbd470c070a65d7f1beb7c38bbc1be"
+          "size": 794275,
+          "sha512": "90fe6f3c79077655ca3dec08845e024e803612a19752b823230527362afc100f30307d48c2d20f6d4eabf9fa8cb29678cf950892e1f74c71445341aac80e2180",
+          "sha256": "9f369a58287001a0d724863e28e4afcd539fc474d1bc1f91a631c2da33ea8ebd",
+          "sha1": "a540db559452470d4ec9bc341dfd2c83b73bdbd0",
+          "md5": "09d39153c6e127241f1cd9ca63fa4f5a"
         }
       ]
     },
