@@ -33,7 +33,7 @@
           "group": "cn.coolplay",
           "module": "seattle_tv_sdk",
           "version": {
-            "requires": "1.3.2.2"
+            "requires": "1.3.2.3"
           }
         },
         {
@@ -124,7 +124,7 @@
           "group": "cn.coolplay",
           "module": "seattle_tv_sdk",
           "version": {
-            "requires": "1.3.2.2"
+            "requires": "1.3.2.3"
           }
         },
         {
