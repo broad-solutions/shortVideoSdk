@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "paid-drama-sdk",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "cn.coolplay",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.2.7.6"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.6.aar",
+          "url": "paid-drama-sdk-1.0.6.aar",
+          "size": 791255,
+          "sha512": "e48c84acfdb6f37181cc03574c83fb22d77dbed5bf4a33d4a80acf03238a8d9210fc525d08e57511ba2a2f1f6becbddcbe08c996d544dbcb69a1ea63b1758e69",
+          "sha256": "17d2f82da9d6219c47ee1337b3b52d58cb01c7ae1115e85a19f7f6e8aad809f3",
+          "sha1": "93194ab8d64414e04e6c42158eaff3780dbd15f2",
+          "md5": "957aedbe8f004b2087dc87aad1394ff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.2.7.6"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.1.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.6.aar",
+          "url": "paid-drama-sdk-1.0.6.aar",
+          "size": 791255,
+          "sha512": "e48c84acfdb6f37181cc03574c83fb22d77dbed5bf4a33d4a80acf03238a8d9210fc525d08e57511ba2a2f1f6becbddcbe08c996d544dbcb69a1ea63b1758e69",
+          "sha256": "17d2f82da9d6219c47ee1337b3b52d58cb01c7ae1115e85a19f7f6e8aad809f3",
+          "sha1": "93194ab8d64414e04e6c42158eaff3780dbd15f2",
+          "md5": "957aedbe8f004b2087dc87aad1394ff5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "paid-drama-sdk-1.0.6-sources.jar",
+          "url": "paid-drama-sdk-1.0.6-sources.jar",
+          "size": 96007,
+          "sha512": "5126c7061c991c9cb9cdc5fd678e531d3ef003871cc3fab32b4e85c019a7c507b080e1d9975bf73c6f5bf7cb939a15cba1c28c6a4279e74fd4457ad9f82f7642",
+          "sha256": "8b95a8e772ac47c6ab7e6713a7444b76a11f650a1621528928e446798716c457",
+          "sha1": "d9cc19ef5d9086245970a0b99da855d9fad7fbe8",
+          "md5": "0945b719e74922c784c399a3448a1f5a"
+        }
+      ]
+    }
+  ]
+}
