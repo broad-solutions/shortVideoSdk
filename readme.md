@@ -36,7 +36,7 @@ maven配置: 项目根目录下settings.gradle
 ```
 dependencies {
     //短剧sdk
-    implementation 'cn.coolplay:paid-drama-sdk:1.0.6'
+    implementation 'cn.coolplay:paid-drama-sdk:1.0.6.1'
     
 }
 ```
@@ -68,6 +68,7 @@ class App : Application() {
         isTv: Boolean = true, //是否是tv
         isDebug: Boolean = false, //是否是debug
         language: String = "en", //默认是英语
+        keepOn:Boolean = true, //是否保持屏幕常亮
         deviceId: String? = null，//设备ID,
         testMode: Boolean = true,//是否是测试模式
     )  
